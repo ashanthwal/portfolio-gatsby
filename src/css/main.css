@@ -25,6 +25,7 @@ Variables
   --clr-primary-8: hsl(184, 80%, 74%);
   --clr-primary-9: hsl(185, 94%, 87%);
   --clr-primary-10: hsl(186, 100%, 94%);
+  --clr-primary-11: hsl(187, 18%, 90%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-3: hsl(209, 34%, 30%);
@@ -34,6 +35,7 @@ Variables
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-11: rgba(218, 218, 218, 0.541);
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -49,10 +51,10 @@ Variables
   --fixed-width: 700px;
 }
 /*
-=============== 
-Global Styles
-===============
-*/
+  =============== 
+  Global Styles
+  ===============
+  */
 
 *,
 ::after,
@@ -157,6 +159,7 @@ p {
 /* section */
 .section {
   padding: 5rem 0;
+  background: var(--clr-white);
 }
 
 .section-center {
@@ -204,10 +207,10 @@ p {
   color: var(--clr-primary-5);
 }
 /*
-=============== 
-Navbar
-===============
-*/
+  =============== 
+  Navbar
+  ===============
+  */
 
 .navbar {
   position: absolute;
@@ -499,7 +502,7 @@ Services
   transition: var(--transition);
 }
 .service-icon {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
 }
 .service .underline {
@@ -658,12 +661,12 @@ Projects
     text-align: left;
   }
 }
-
 /*
 =============== 
 Blog
 ===============
 */
+
 .blog {
   display: block;
   margin-bottom: 2rem;
@@ -690,11 +693,17 @@ Blog
   border-top-right-radius: var(--radius);
   height: 15rem;
 }
+
 .blog-card {
   padding: 1.5rem 1rem;
 }
 .blog-card h4 {
   color: var(--clr-grey-1);
+}
+.blog-content {
+  padding: 1.5rem;
+  background: var(--clr-grey-11);
+  border-radius: 1rem;
 }
 
 .blog-footer {

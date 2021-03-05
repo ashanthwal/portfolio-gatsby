@@ -1,5 +1,7 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode } from "react-icons/fa"
+import { DiDatabase, DiAptana } from "react-icons/di"
+
 export default [
   {
     id: 1,
@@ -18,7 +20,7 @@ export default [
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
+    icon: <DiDatabase className="service-icon" />,
     title: "Backend",
     text: (
       <ul>
@@ -26,14 +28,12 @@ export default [
         <li>Express</li>
         <li>Mongo DB</li>
         <li>MySQL</li>
-        <li>Redux</li>
-        <li>Gatsby</li>
       </ul>
     ),
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
+    icon: <DiAptana className="service-icon" />,
     title: "Other technologies",
     text: (
       <ul>

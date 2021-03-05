@@ -21,7 +21,7 @@ const Blog = ({ id, title, image, date, category, slug, desc }) => {
     </Link>
   )
 }
-
+//Frontend validation
 Blog.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,

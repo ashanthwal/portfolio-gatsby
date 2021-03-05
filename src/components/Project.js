@@ -30,6 +30,7 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
   )
 }
 
+//Frontend validation
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   github: PropTypes.string.isRequired,
