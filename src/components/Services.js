@@ -10,7 +10,7 @@ const Services = () => {
           const { id, icon, title, text } = service
 
           return (
-            <article key={id} className="service bg-grey">
+            <article key={id} className="service bg-grey zoom">
               {icon}
               <h4>{title}</h4>
               <div className="underline"></div>

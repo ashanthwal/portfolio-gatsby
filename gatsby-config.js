@@ -3,12 +3,12 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-
 module.exports = {
   siteMetadata: {
     title: "Full Stack Web Developer ",
     description: "Build beautiful and performant websites",
     author: "Ash Anthwal",
+    siteUrl: "https://ashanthwal.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
