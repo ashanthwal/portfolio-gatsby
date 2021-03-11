@@ -2,10 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import "./Hero.css"
 function Hero() {
-  window.addEventListener("click", e => {
-    const target = e.target.className
-    console.log(target)
-  })
   return (
     <>
       <div className="header">
